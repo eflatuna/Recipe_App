@@ -4,13 +4,14 @@ import { Link } from "react-router-dom";
 
 export const Nav = styled(Flex)`
 	padding: 1rem 1.5rem;
+	background-color: #f6e6d9;
 `;
 
 export const Brand = styled(Link)`
-	color: ${({ theme }) => theme.colors.navbarColor};
+	color: #411f01;
 	text-decoration: none;
 	font-weight: 600;
-	font-size: 2rem;
+	font-size: 1.5rem;
 `;
 
 export const Menu = styled(Flex)`
@@ -24,13 +25,13 @@ export const Menu = styled(Flex)`
 
 export const MenuLink = styled(Link)`
 	text-align: center;
-	padding: 1rem 2rem;
+	padding: 0.5rem 1rem;
 	text-decoration: none;
 	cursor: pointer;
-	color: ${({ theme }) => theme.colors.navbarColor};
+	color: #411f01;
 	transition: all 0.3s ease-in;
 	&:hover {
-		color: rgba(0, 0, 0, 0.6);
+		color: rgba(0, 0, 0, 0.8);
 		font-weight: bold;
 	}
 	@media (max-width: ${({ theme }) => theme.screens.lg}) {
@@ -42,7 +43,7 @@ export const MenuLink = styled(Link)`
 export const Hamburger = styled.div`
 	display: none;
 	cursor: pointer;
-	color: ${({ theme }) => theme.colors.navbarColor};
+	color: #411f01;
 	@media (max-width: ${({ theme }) => theme.screens.lg}) {
 		display: block;
 	}

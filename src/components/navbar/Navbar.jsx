@@ -9,7 +9,7 @@ const Navbar = () => {
 	return (
 		<Nav justify="space-between" wrap="wrap">
 			<Brand to="/">
-				<i>Foodie</i>
+				<h1>Foodie</h1>
 			</Brand>
 			<Hamburger onClick={() => setIsOpen(!isOpen)}>
 				<GiHamburgerMenu />

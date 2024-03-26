@@ -20,7 +20,7 @@ const Login = () => {
 	const handleSubmit = (e) => {
 		e.preventDefault();
 		sessionStorage.setItem("esra", JSON.stringify(userInfo));
-		navigate("-1");
+		navigate("/");
 	};
 
 	return (

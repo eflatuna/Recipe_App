@@ -1,6 +1,6 @@
 const theme = {
 	colors: {
-		navbarColor: "#f38d6e",
+		navbarColor: "#F6E6D9",
 	},
 
 	screens: {

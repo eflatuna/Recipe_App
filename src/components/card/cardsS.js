@@ -14,6 +14,7 @@ export const Card = styled(Flex)`
 	border-radius: 3px;
 	margin: 0.7rem;
 	box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, 0.3);
+	color: #411f01;
 	&:hover {
 		box-shadow: none;
 		transition: all 0.3s ease-in;
@@ -25,7 +26,7 @@ export const Image = styled.img`
 	border-radius: 10px;
 `;
 export const Button = styled.button`
-	background-color: white;
+	background-color: #f39b27;
 	padding: 0.7rem;
 	outline: none;
 	border: none;
