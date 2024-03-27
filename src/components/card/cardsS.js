@@ -34,7 +34,7 @@ export const Button = styled.button`
 	border-radius: 3px;
 	cursor: pointer;
 	&:hover {
-		opacity: 0.6;
+		opacity: 0.9;
 	}
 `;
 

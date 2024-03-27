@@ -40,7 +40,7 @@ export const FoodInput = styled.input`
 export const Button = styled.button`
 	background-color: #f39b27;
 	padding: 5px;
-	outline: 3rem;
+	/* outline: 3rem; */
 	height: 3rem;
 	border: none;
 	margin: 5px;
@@ -57,6 +57,7 @@ export const Button = styled.button`
 
 export const Select = styled.select`
 	border-radius: 3px;
+	height: 3rem;
 	margin: 5px;
 	padding: 5px;
 	border: none;

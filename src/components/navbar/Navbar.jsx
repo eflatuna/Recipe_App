@@ -18,8 +18,8 @@ const Navbar = () => {
 				<MenuLink to="/">Home</MenuLink>
 				<MenuLink to="about">About</MenuLink>
 				<MenuLink to="register">Register</MenuLink>
-				<MenuLink to="logout" onClick={() => sessionStorage.clear()}>
-					Logout{" "}
+				<MenuLink to="login" onClick={() => sessionStorage.clear()}>
+					Login{" "}
 				</MenuLink>
 			</Menu>
 		</Nav>
