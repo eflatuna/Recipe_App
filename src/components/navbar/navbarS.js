@@ -15,17 +15,18 @@ export const Brand = styled(Link)`
 `;
 
 export const Menu = styled(Flex)`
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+
 	@media (max-width: ${({ theme }) => theme.screens.lg}) {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		position: relative;
+		flex-direction: column;
+		width: 100%;
+		display: ${({ isOpen }) => (isOpen ? "flex" : "none")};
+		max-height: ${({ isOpen }) => (isOpen ? "400px" : "0")};
+		overflow: hidden;
 	}
-	width: 100%;
-	flex-direction: column;
-	display: ${({ open }) => (open ? "flex" : "none")};
-	max-height: ${({ isOpen }) => (isOpen ? "400px" : "0")};
-	overflow: hidden;
 `;
 
 export const MenuLink = styled(Link)`
