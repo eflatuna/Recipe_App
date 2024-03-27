@@ -19,7 +19,7 @@ SOLUTION
 │    ├── components
 │    │       ├── header
 │    │       │     ├── Header.js
-│    │       │     ├── style.js
+│    │       │     └── style.js
 │    │       │     
 |    |       |
 │    │       └── navbar
@@ -52,13 +52,6 @@ SOLUTION
 └── yarn.lock
 ```
 
-## Expected Outcome
-
-![Project Snapshot](./food-search-app.gif)
-
-## Objective
-
-Build a Recipe App using ReactJS.
 
 ### At the end of the project, following topics are to be covered;
 
