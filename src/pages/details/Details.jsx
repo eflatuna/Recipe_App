@@ -19,7 +19,7 @@ const Details = () => {
 	return (
 		<DetailContainer>
 			<HeaderContainer>
-				<h1>{recipe.label}</h1>
+				<h1 style={{ maxWidth: "600px" }}>{recipe.label}</h1>
 				<img
 					style={{
 						cursor: "pointer",
