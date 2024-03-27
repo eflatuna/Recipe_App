@@ -16,9 +16,14 @@ export const Brand = styled(Link)`
 
 export const Menu = styled(Flex)`
 	@media (max-width: ${({ theme }) => theme.screens.lg}) {
-		flex-direction: column;
-		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: relative;
 	}
+	width: 100%;
+	flex-direction: column;
+	display: ${({ open }) => (open ? "flex" : "none")};
 	max-height: ${({ isOpen }) => (isOpen ? "400px" : "0")};
 	overflow: hidden;
 `;
@@ -45,7 +50,7 @@ export const Hamburger = styled.div`
 	cursor: pointer;
 	color: #411f01;
 	@media (max-width: ${({ theme }) => theme.screens.lg}) {
-		display: block;
+		display: flex;
 	}
 `;
 export default Nav;
