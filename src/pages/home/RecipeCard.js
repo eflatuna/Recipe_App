@@ -26,7 +26,7 @@ const RecipeCard = () => {
 							navigate("/details", { state: { recipe } })
 						}
 					>
-						Details
+						View More
 					</Button>
 				</Cards>
 			))}

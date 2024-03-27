@@ -25,9 +25,8 @@ const AppRouter = () => {
 					</Route>
 					<Route path="/details" element={<PrivateRouter />}>
 						<Route path="" element={<Details />} />
-
-						<Route path="*" element={<NotFound />} />
 					</Route>
+					<Route path="*" element={<NotFound />} />
 				</Routes>
 			</BrowserRouter>
 		</div>
